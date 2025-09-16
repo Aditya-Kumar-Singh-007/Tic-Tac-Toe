@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="container">
+      <div class="game">
+        <button class="box" id="box1"></button>
+        <button class="box" id="box2"></button>
+        <button class="box" id="box3"></button>
+        <button class="box" id="box4"></button>
+        <button class="box" id="box5"></button>
+        <button class="box" id="box6"></button>
+        <button class="box" id="box7"></button>
+        <button class="box" id="box8"></button>
+        <button class="box" id="box9"></button>
+      </div>
+    </div>
+    <div>
+        <button id="reset">Reset Game</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2 id="result">Winner</h2>
+          <button id="playGame">Play Game Again</button>
+        </div>
+      </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
